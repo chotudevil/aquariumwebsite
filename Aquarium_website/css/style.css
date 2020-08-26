@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    clip-path: polygon(0% 0%,100% 0%, 100% 75%, 0% 100%);
+}
+
+#nav-bar{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+
+#nav-bar .logo{
+   
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 100px;
+    padding: 0px 50px;
+    width: 50%;
+    
+}
+
+#nav-bar .menu-item{
+   
+    width: 50%;
+}
+
+#nav-bar .menu-item ul{
+    width: 100%;
+    line-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+   
+}
+#nav-bar .menu-item ul li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+ 
+
+}
+#nav-bar .menu-item ul li:hover{
+    color: black;
+}
+
+#display{
+    width: 100%;
+    display: flex;
+}
+
+#display .leftside{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    
+}
+#display .leftside img{
+    width: 100%;
+    height: 500px;
+}
+#display .rightside{
+  
+    width: 55%;
+    height: 300px;
+    color: white;  
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px;  
+}
+#display .rightside h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase; 
+}
+#display .rightside p{
+    font-size: 1.2rem;
+    padding: 20px 0px;
+}
+
+#display .rightside button{
+    background-image: linear-gradient(57deg, #00C6A7 , #1E4D92 ); 
+    font-size:20px;
+    border: none;
+    box-shadow: 1px 2px rgb(233, 233, 233);
+    border-radius: 5px ;
+    outline: none;
+    color: white;
+    padding: 15px 30px;
+}
+
+#display .rightside button:hover{
+    background-image: linear-gradient(57deg, #1E4D92, #00C6A7  ); 
+}
+
+.designBy{
+    float: right;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    padding: 0 20px;
+}
